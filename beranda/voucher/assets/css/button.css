@@ -1,0 +1,21 @@
+.btn-primary {
+  background-color:rgba(255,255,255,0.52) !important;
+  color:black !important;
+}
+
+.btn-primary:hover {
+  border-color:black !important;
+  color:white !important;
+  background-color:black !important;
+}
+
+#btn-login {
+  color:white !important;
+  background-color:blue !important;
+}
+
+#btn-login:hover {
+  background-color:rgb(78,78,241);
+  border-color:rgb(78,78,241);
+}
+

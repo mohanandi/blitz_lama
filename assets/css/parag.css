@@ -1,0 +1,38 @@
+#col {
+  float:left;
+  width:50%;
+}
+
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+#col1 {
+  float:left;
+  width:50%;
+}
+
+.rotate-in-2-br-cw {
+  -webkit-animation:rotate-in-2-br-cw 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation:rotate-in-2-br-cw 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes rotate-in-2-br-cw {
+  0% {
+    -webkit-transform:rotate(-45deg);
+    transform:rotate(-45deg);
+    -webkit-transform-origin:100% 100%;
+    transform-origin:100% 100%;
+    opacity:0;
+  }
+  100% {
+    -webkit-transform:rotate(0);
+    transform:rotate(0);
+    -webkit-transform-origin:100% 100%;
+    transform-origin:100% 100%;
+    opacity:1;
+  }
+}
+

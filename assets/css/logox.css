@@ -1,0 +1,41 @@
+.container site-selection {
+  position:relative;
+  width:50%;
+  margin-left:20px;
+}
+
+.container img {
+  width:20%;
+  height:20%;
+}
+
+@media (min-width:1200px) {
+  .container button {
+    margin-left:-808px;
+    margin-top:182px;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    -ms-transform:translate(-50%, -50%);
+    background-color:#4582ec;
+    color:white;
+    font-size:16px;
+    padding:12px 24px;
+    border:none;
+    cursor:pointer;
+    border-radius:5px;
+  }
+}
+
+.container .btn:hover {
+  margin-top:-55px;
+  background-color:rgb(255,254,254);
+}
+
+#Logo-top {
+  margin-top:-40px;
+  margin-left:-20px;
+  width:120%;
+}
+

@@ -1,0 +1,174 @@
+div.jumbotron.hero-technology {
+  border-radius:20px;
+  position:absolute;
+  margin-top:34px;
+  margin-right:auto;
+  margin-left:auto;
+  width:69.5%;
+  height:20%;
+  color:#fff;
+  background:url('../../assets/img/hero-background-technology.jpg');
+  background-size:cover;
+  background-position:center;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+
+h1.hero-title, h2.hero-title, h3.hero-title {
+  text-shadow:0 2px 2px rgba(0,0,0,0.3);
+  color:#fff;
+  font-weight:500;
+}
+
+p.hero-subtitle {
+  max-width:600px;
+  margin:25px auto;
+  padding:10px 15px;
+  background-color:rgba(0,0,0,0.1);
+  color:#fff;
+  text-shadow:0 1px 1px rgba(0,0,0,0.7);
+  font-weight:500;
+}
+
+.container {
+  border-radius:10px;
+  background-color:rgb(255,255,255);
+}
+
+body {
+  background-color:#e8e8e8;
+}
+
+.avatar-wrapper {
+  border-style:solid;
+  position:relative;
+  height:150px;
+  width:150px;
+  margin:25px 0px;
+  border-radius:50%;
+  overflow:hidden;
+  box-shadow:1px 1px 15px -5px black;
+  transition:all 0.3s ease;
+}
+
+.avatar-wrapper:hover {
+  transform:scale(1.05);
+  cursor:pointer;
+}
+
+.avatar-wrapper:hover .profile-pic {
+  opacity:0.5;
+}
+
+.avatar-wrapper .profile-pic {
+  height:100%;
+  width:100%;
+  transition:all 0.3s ease;
+}
+
+.avatar-wrapper .profile-pic:after {
+  font-family:FontAwesome;
+  content:"\f007";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  position:absolute;
+  font-size:7rem;
+  background:#ecf0f1;
+  color:#34495e;
+  text-align:center;
+}
+
+.avatar-wrapper .upload-button {
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+}
+
+.avatar-wrapper .upload-button .fa-arrow-circle-up {
+  position:absolute;
+  font-size:10rem;
+  top:-7px;
+  left:4px;
+  text-align:center;
+  opacity:0;
+  transition:all 0.3s ease;
+  color:#34495e;
+}
+
+.avatar-wrapper .upload-button:hover .fa-arrow-circle-up {
+  opacity:0.9;
+}
+
+#user a {
+  color:rgb(109,86,245);
+  text-decoration:none;
+  margin-top:-65px;
+}
+
+body, body * {
+  font-family:'Roboto';
+}
+
+#user a:hover {
+  color:rgb(64,46,179);
+}
+
+#user h4 {
+  margin-left:160px;
+  margin-top:-90px;
+  color:black;
+}
+
+#user p {
+  margin-left:160px;
+  margin-top:-60px;
+  color:#9d9d9d;
+}
+
+#tab {
+  background-color:rgb(232,232,232);
+  margin-left:206px;
+  margin-top:20px;
+  width:590px;
+  border-radius:0px;
+}
+
+.borderless td, .borderless th {
+  font-family:'Roboto';
+  font-size:1.1rem;
+  background-color:rgb(255,255,255);
+  border:none;
+}
+
+.table {
+  margin-left:-23px;
+  border-spacing:0px 10px;
+  border-collapse:separate;
+}
+
+body, * {
+  font-family:'Roboto';
+}
+
+#tab2 {
+  background-color:rgb(232,232,232);
+  margin-left:-2px;
+  margin-top:20px;
+  width:423px;
+  border-radius:0px;
+}
+
+html {
+  overflow-x:hidden;
+}
+
+.form-control:focus {
+  border-color:inherit;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+
